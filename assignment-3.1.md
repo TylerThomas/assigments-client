@@ -1,31 +1,21 @@
 Tyler Thomas
-
-boolean:
-utils.has({hello: 'world'}, 'hello'); //true
-
-integer:
+StoryScreen.js
+//Syntax
 
 
-float:
+var React = require('react-native');
+var precomputeStyle = require('precomputeStyle');
+var BASE_URL = 'http://news.at.zhihu.com/api/4/news/';
 
+//Statement
 
-string:
-utils.randomString(32, '1234567890'); //18774480824014856763726145106142
+var StoryScreen = React.createClass({
+  componentDidMount: function() {
+    this.fetchStroyDetail();
+onWebViewScroll: function(event) {
 
-array:
-
-
-object:
-
-
-undefined:
-
-
-null:
-
-
-NaN:
-git pull
-git add
-git commit
-git push
+//Comment
+//console.log('ScrollY: ' + event);
+// var headerStyle = {
+//   height: 200,
+//   flexDirection: 'row',
