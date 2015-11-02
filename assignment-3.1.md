@@ -14,8 +14,23 @@ var StoryScreen = React.createClass({
     this.fetchStroyDetail();
 onWebViewScroll: function(event) {
 
-//Comment
+//Comments
+
 //console.log('ScrollY: ' + event);
 // var headerStyle = {
 //   height: 200,
 //   flexDirection: 'row',
+
+//Variables
+
+var toolbar
+var styles = StyleSheet.create({
+var precomputeStyle = require('precomputeStyle');
+
+//Operators
+
+var reqUrl = BASE_URL + this.props.story.id;
+var scrollY = -event / PIXELRATIO;
+
+//Arithmetic
+
